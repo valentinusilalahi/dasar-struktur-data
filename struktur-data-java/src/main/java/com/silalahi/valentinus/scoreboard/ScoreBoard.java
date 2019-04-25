@@ -5,7 +5,7 @@ package com.silalahi.valentinus.scoreboard;
  * User: valentinussilalahi
  * Date: 2019-04-24
  * Time: 11:26
- * To change this template use File | Settings | File and Code Templates.
+ * Storing game entries in an array
  */
 public class ScoreBoard {
 	private int numEntries=0;
