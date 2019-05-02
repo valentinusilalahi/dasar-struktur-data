@@ -1,6 +1,5 @@
 package com.silalahi.valentinus.hashmap;
 
-import java.util.HashMap;
 import java.util.Scanner;
 
 /**
@@ -29,19 +28,19 @@ public class DemoMain {
 			
 			switch (choice){
 				case 1 :{
-					System.out.println("Enter your choice : ");
+					System.out.println("Enter the key : ");
 					key = in.nextInt();
 					hashMap.insertHash(key);
 					break;
 				}
 				case 2:{
-					System.out.println("Enter your choice : ");
+					System.out.println("Enter the key delete : ");
 					key = in.nextInt();
 					hashMap.deleteHash(key);
 					break;
 				}
 				case 3:{
-					System.out.println("Enter your choice : ");
+					System.out.println("Print Table : ");
 					key = in.nextInt();
 					hashMap.displayHashtable();
 					break;
